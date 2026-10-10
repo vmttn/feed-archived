@@ -1,0 +1,21 @@
+[project]
+name = "feed-archived"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Valentin Matton" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+feed-archived = "feed_archived:main"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

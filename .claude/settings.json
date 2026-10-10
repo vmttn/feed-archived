@@ -1,0 +1,11 @@
+{
+    "permissions": {
+        "deny": [
+            "Read(./**/.env)"
+        ],
+        "allow": [
+            "WebFetch(domain:www.lemonde.fr)",
+            "WebFetch(domain:archive.ph)"
+        ]
+    }
+}
